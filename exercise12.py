@@ -2,7 +2,7 @@ import csv
 from charset_normalizer import detect
 import pandas as pd
 
-#Checking githubc
+#Checking github
 
 sum = 0
 # List of files to process (manually specified)
