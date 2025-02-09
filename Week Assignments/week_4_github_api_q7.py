@@ -18,6 +18,7 @@ for user in users:
     user_url = f"{base_url}/users/{username}"
     user_response = requests.get(user_url)
     user_data = user_response.json()
+    #print(user_data)
     
     if user_data.get('followers', 0) > 120:
         creation_date = user_data.get('created_at')
